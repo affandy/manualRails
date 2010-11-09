@@ -1,4 +1,3 @@
-log/*.log
 tmp/*
 tmp/**/*
 doc/api
@@ -8,3 +7,9 @@ db/*.sqlite3
 *~
 .DS_Store
 nbproject/
+*.rbc
+.bundle
+vendor/bundle
+log/*
+public/system/*
+coverage/
