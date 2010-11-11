@@ -23,7 +23,7 @@ describe "LayoutLinks" do
 
   it "should have a signup page at '/signup'" do
     get '/signup'
-    response.should render_template('user/new')
+    response.should render_template('users/new')
   end
 
   it "should have the right links on the layout" do
@@ -37,6 +37,6 @@ describe "LayoutLinks" do
     click_link "Home"
     response.should render_template('pages/home')
     click_link "Sign up now!"
-    response.should render_template('user/new')
+    response.should render_template('users/new')
   end
 end
